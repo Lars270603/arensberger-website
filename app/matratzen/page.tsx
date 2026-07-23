@@ -16,6 +16,7 @@ export default function MatratzenPage() {
         title="Fünf Systeme. Ein Ziel: guter Schlaf."
         subtitle="Seit 2004 entwickeln wir Matratzen, die zu unterschiedlichen Körpern, Gewohnheiten und Schlafpositionen passen — nicht umgekehrt."
         imageLabel="Schlafzimmer mit Arensberger Matratze im Morgenlicht"
+        image="/images/federkernmatratze-detail.jpg"
       />
 
       <section className="mx-auto max-w-7xl px-6 py-24 lg:px-10">

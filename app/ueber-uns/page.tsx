@@ -48,7 +48,7 @@ export default function UeberUnsPage() {
         </p>
       </article>
 
-      <div className="mx-auto max-w-md px-6 lg:px-10">
+      <div className="mx-auto max-w-3xl px-6 lg:px-10">
         <Reveal>
           <HeadquartersMap />
         </Reveal>

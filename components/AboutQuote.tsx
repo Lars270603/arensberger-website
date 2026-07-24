@@ -9,7 +9,7 @@ export default function AboutQuote() {
           <span className="h-1.5 w-1.5 rotate-45 bg-accent" />
         </Reveal>
         <Reveal delay={100}>
-          <p className="mt-10 font-serif italic text-3xl leading-snug sm:text-5xl">
+          <p className="mt-10 text-balance font-serif italic text-3xl leading-snug sm:text-5xl">
             Guter Schlaf beginnt nicht mit einem Produkt — er beginnt mit der
             Frage, was ein Mensch wirklich braucht.
           </p>

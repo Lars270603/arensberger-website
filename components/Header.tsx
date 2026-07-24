@@ -63,8 +63,8 @@ export default function Header() {
           </Link>
 
           <div className="group relative">
-            <button className="hover:text-accent transition-colors">Matratzen</button>
-            <div className="invisible absolute left-1/2 top-full -translate-x-1/2 pt-4 opacity-0 transition-all duration-200 group-hover:visible group-hover:opacity-100">
+            <button className="hover:text-accent transition-colors" aria-haspopup="true">Matratzen</button>
+            <div className="invisible absolute left-1/2 top-full -translate-x-1/2 pt-4 opacity-0 transition-opacity duration-200 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
               <ul className="min-w-[180px] rounded-md bg-background text-foreground shadow-lg ring-1 ring-black/5">
                 {matratzenLinks.map((item) => (
                   <li key={item.href}>
@@ -81,8 +81,8 @@ export default function Header() {
           </div>
 
           <div className="group relative">
-            <button className="hover:text-accent transition-colors">Ratgeber</button>
-            <div className="invisible absolute left-1/2 top-full -translate-x-1/2 pt-4 opacity-0 transition-all duration-200 group-hover:visible group-hover:opacity-100">
+            <button className="hover:text-accent transition-colors" aria-haspopup="true">Ratgeber</button>
+            <div className="invisible absolute left-1/2 top-full -translate-x-1/2 pt-4 opacity-0 transition-opacity duration-200 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
               <ul className="min-w-[180px] rounded-md bg-background text-foreground shadow-lg ring-1 ring-black/5">
                 {ratgeberLinks.map((item) => (
                   <li key={item.href}>

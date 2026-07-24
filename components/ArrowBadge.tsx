@@ -11,6 +11,7 @@ export default function ArrowBadge({
       className={`flex ${dim} shrink-0 items-center justify-center rounded-full transition-transform duration-500 ease-[cubic-bezier(0.32,0.72,0,1)] group-hover:translate-x-1 group-hover:-translate-y-1 ${
         light ? "bg-white/15 text-white backdrop-blur-xl" : "bg-accent/10 text-accent"
       }`}
+      aria-hidden="true"
     >
       ↗
     </span>

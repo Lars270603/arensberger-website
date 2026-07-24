@@ -30,7 +30,7 @@ export default function Hero() {
         </Reveal>
 
         <Reveal delay={120}>
-          <h1 className="max-w-3xl font-heading text-4xl font-bold leading-[1.05] text-white sm:text-6xl lg:text-8xl">
+          <h1 className="max-w-3xl text-balance font-heading text-4xl font-bold leading-[1.05] text-white sm:text-6xl lg:text-8xl">
             Hunderte Matratzen zerlegt.
             <br />
             <span className="font-serif italic font-medium text-white/90">

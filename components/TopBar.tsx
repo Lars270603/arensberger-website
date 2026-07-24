@@ -6,7 +6,7 @@ export default function TopBar() {
       </span>
       <span className="whitespace-nowrap text-xs tracking-wide sm:hidden">Seit 2004</span>
       <span className="hidden whitespace-nowrap text-xs tracking-wide sm:inline">
-        Seit 2004 in Deutschland entwickelt
+        Seit 2004 in der Vulkaneifel entwickelt
       </span>
     </div>
   );

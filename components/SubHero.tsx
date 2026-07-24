@@ -28,7 +28,7 @@ export default function SubHero({ eyebrow, title, subtitle, imageLabel, image }:
           </span>
         </Reveal>
         <Reveal delay={100}>
-          <h1 className="font-heading font-bold text-4xl text-white sm:text-5xl lg:text-6xl max-w-2xl">
+          <h1 className="text-balance font-heading font-bold text-4xl text-white sm:text-5xl lg:text-6xl max-w-2xl">
             {title}
           </h1>
         </Reveal>

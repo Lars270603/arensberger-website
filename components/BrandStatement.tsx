@@ -23,7 +23,7 @@ export default function BrandStatement() {
               </p>
             </Reveal>
             <Reveal delay={120}>
-              <p className="mt-6 font-serif italic text-3xl leading-snug sm:text-5xl">
+              <p className="mt-6 text-balance font-serif italic text-3xl leading-snug sm:text-5xl">
                 Wir wollten keine neue Matratzenmarke gründen. Wir wollten nur
                 endlich eine finden, die hält, was sie verspricht. Also haben
                 wir sie selbst entwickelt.

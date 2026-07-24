@@ -46,7 +46,10 @@ export default function MattressBentoGrid() {
                         {category.teaser}
                       </p>
                     </div>
-                    <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-white/15 text-white backdrop-blur-xl transition-transform duration-500 ease-[cubic-bezier(0.32,0.72,0,1)] group-hover:translate-x-1 group-hover:-translate-y-1">
+                    <span
+                      className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-white/15 text-white backdrop-blur-xl transition-transform duration-500 ease-[cubic-bezier(0.32,0.72,0,1)] group-hover:translate-x-1 group-hover:-translate-y-1"
+                      aria-hidden="true"
+                    >
                       ↗
                     </span>
                   </div>

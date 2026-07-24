@@ -18,6 +18,9 @@ export default function AboutQuote() {
           <p className="mt-8 font-body text-sm uppercase tracking-[0.25em] text-accent">
             Waldemar Derksen, Gründer
           </p>
+          <p className="mt-2 font-body text-sm text-secondary">
+            Gegründet 2004 in der Vulkaneifel
+          </p>
         </Reveal>
         <Reveal delay={300} className="mt-10 flex justify-center">
           <NestedCta href="/ueber-uns">Mehr über uns</NestedCta>

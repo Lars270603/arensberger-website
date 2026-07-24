@@ -25,7 +25,7 @@ export default function Hero() {
       <div className="relative mx-auto flex min-h-[100dvh] max-w-7xl flex-col justify-end px-4 pb-24 pt-32 sm:px-6 lg:px-10">
         <Reveal>
           <span className="mb-8 inline-flex w-fit items-center gap-2 rounded-full border border-white/30 bg-white/10 px-4 py-1.5 font-body text-[10px] uppercase tracking-[0.25em] text-white backdrop-blur-2xl">
-            Seit 2004 · Direkt aus Deutschland
+            Seit 2004 · Aus der Vulkaneifel
           </span>
         </Reveal>
 
@@ -41,9 +41,9 @@ export default function Hero() {
 
         <Reveal delay={240}>
           <p className="mt-8 max-w-md font-body text-lg text-white/80">
-            Wir entwickeln unsere Matratzen direkt in Deutschland — ohne
-            Zwischenhändler, ohne Kompromisse. Über 1.000.000 Kunden schlafen
-            bereits darauf.
+            Wir entwickeln unsere Matratzen in der Vulkaneifel — mit dem
+            Anspruch, dass du sie nie wieder ersetzen musst. Über 1.000.000
+            Kunden schlafen bereits darauf.
           </p>
         </Reveal>
 

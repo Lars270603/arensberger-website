@@ -25,6 +25,9 @@ export default function Footer() {
             <p className="mt-2 font-body text-xs uppercase tracking-[0.15em] text-accent">
               Seit 2004
             </p>
+            <p className="mt-1 font-body text-xs text-secondary">
+              Entwickelt in der Vulkaneifel
+            </p>
           </div>
 
           <nav className="flex flex-wrap gap-x-8 gap-y-3 font-body text-sm text-secondary">

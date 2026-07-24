@@ -4,7 +4,7 @@ import Reveal from "./Reveal";
 const facts = [
   { value: "1.000.000+", label: "Menschen schlafen bereits auf einer Arensberger", rotate: "sm:-rotate-2" },
   { value: "Öko-Tex®", label: "Zertifizierte Qualität in jeder einzelnen Matratze", rotate: "" },
-  { value: "0", label: "Zwischenhändler zwischen unserer Produktion und deinem Schlafzimmer", rotate: "sm:rotate-2" },
+  { value: "0", label: "Zwischen unserer Entwicklung und deinem Schlafzimmer", rotate: "sm:rotate-2" },
 ];
 
 export default function BrandStatement() {
@@ -25,7 +25,8 @@ export default function BrandStatement() {
             <Reveal delay={120}>
               <p className="mt-6 font-serif italic text-3xl leading-snug sm:text-5xl">
                 Wir wollten keine neue Matratzenmarke gründen. Wir wollten nur
-                endlich eine finden, die hält, was sie verspricht.
+                endlich eine finden, die hält, was sie verspricht. Also haben
+                wir sie selbst entwickelt.
               </p>
             </Reveal>
           </div>

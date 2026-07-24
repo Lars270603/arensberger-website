@@ -13,11 +13,9 @@ export default function VulkaneifelStatement() {
         </Reveal>
         <Reveal delay={120}>
           <p className="mt-8 font-body text-lg text-white/80">
-            Dort wo die Maare in den Basalt eingeschnitten sind und Stille noch
-            etwas bedeutet — dort denken wir seit 2004 darüber nach, was guter
-            Schlaf wirklich braucht. Keine Großstadt, kein Rauschen. Nur die
-            Frage: Wie muss eine Matratze sein, damit du morgens aufstehst und
-            es nicht bemerkst, dass du geschlafen hast.
+            Wo Maare in den Basalt eingeschnitten sind und Nächte noch wirklich
+            still sind. Hier entwickeln wir seit 2004 Matratzen — für Menschen
+            die morgens aufstehen und den Unterschied spüren.
           </p>
         </Reveal>
         <Reveal delay={240} className="mt-14">

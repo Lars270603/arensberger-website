@@ -41,6 +41,7 @@ export default function RatgeberPage() {
         title="Wissen rund um deinen Schlaf."
         subtitle="Materialien, Aufbauten und Eigenschaften verständlich erklärt — damit du die Matratze findest, die wirklich zu dir passt."
         imageLabel="Aufgeschlagenes Bett im Morgenlicht"
+        image="/images/schlafzimmer-morgenlicht.jpg"
       />
 
       <section className="mx-auto max-w-7xl px-6 py-24 lg:px-10">

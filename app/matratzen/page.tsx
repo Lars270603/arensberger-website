@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import SubHero from "@/components/SubHero";
 import MattressGrid from "@/components/MattressGrid";
+import SchlaffinderQuiz from "@/components/SchlaffinderQuiz";
 
 export const metadata: Metadata = {
   title: "Matratzen | Arensberger",
@@ -26,11 +27,16 @@ export default function MatratzenPage() {
           </h2>
           <p className="mt-4 font-body text-secondary text-lg">
             Jedes unserer fünf Systeme löst ein anderes Schlafbedürfnis — wähle nach
-            Liegegefühl, Schlafposition oder Material.
+            Liegegefühl, Schlafposition oder Material. Oder lass dich in einer Minute
+            zu deinem System führen:
           </p>
         </div>
 
-        <div className="mt-14">
+        <div className="mt-10 max-w-2xl">
+          <SchlaffinderQuiz />
+        </div>
+
+        <div className="mt-20">
           <MattressGrid />
         </div>
       </section>

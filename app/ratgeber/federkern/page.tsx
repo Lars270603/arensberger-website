@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import SubHero from "@/components/SubHero";
 import NestedCta from "@/components/NestedCta";
 import ReadingProgress from "@/components/ratgeber/ReadingProgress";
@@ -137,7 +138,13 @@ export default function RatgeberFederkernPage() {
               persönlichen Schlafempfinden ab.
             </p>
 
-            <div className="mt-16 flex justify-center">
+            <div className="mt-16 flex flex-col items-center gap-4">
+              <Link
+                href="/ratgeber/schaumstoff"
+                className="font-body text-sm text-secondary hover:text-accent transition-colors"
+              >
+                Weiterlesen: Schaumstoffmatratzen im Vergleich →
+              </Link>
               <NestedCta href="/matratzen/federkern">Unsere Federkernmatratzen entdecken</NestedCta>
             </div>
           </article>

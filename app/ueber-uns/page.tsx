@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import SubHero from "@/components/SubHero";
-import PlaceholderImage from "@/components/PlaceholderImage";
 import PullQuote from "@/components/PullQuote";
-import BezelFrame from "@/components/BezelFrame";
+import HeadquartersMap from "@/components/HeadquartersMap";
 import Reveal from "@/components/Reveal";
 
 export const metadata: Metadata = {
@@ -49,19 +48,18 @@ export default function UeberUnsPage() {
         </p>
       </article>
 
-      <div className="mx-auto max-w-5xl px-6 lg:px-10">
+      <div className="mx-auto max-w-md px-6 lg:px-10">
         <Reveal>
-          <BezelFrame>
-            <PlaceholderImage label="Arensberger Team am Firmensitz in Nerdlen" />
-          </BezelFrame>
+          <HeadquartersMap />
         </Reveal>
       </div>
 
       <article className="mx-auto max-w-3xl px-6 py-20 lg:px-10">
         <p className="font-body text-lg leading-relaxed text-secondary">
-          Vor über 20 Jahren ließ der Komfort und die Qualität der meisten Matratzen noch
-          sehr zu wünschen übrig. Ganz abgesehen vom Preis. Und das hat uns einfach nicht
-          ruhig schlafen lassen.
+          Alles begann in der Vulkaneifel, mitten im Herzen von Rheinland-Pfalz — dort, wo
+          bis heute unser Firmensitz in Nerdlen steht. Vor über 20 Jahren ließ der Komfort
+          und die Qualität der meisten Matratzen noch sehr zu wünschen übrig. Ganz
+          abgesehen vom Preis. Und das hat uns einfach nicht ruhig schlafen lassen.
         </p>
         <p className="mt-4 font-body text-lg leading-relaxed text-secondary">
           Wir haben hunderte von Matratzen ausgiebig getestet und im wahrsten Sinne des

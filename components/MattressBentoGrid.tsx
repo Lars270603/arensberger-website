@@ -42,11 +42,9 @@ export default function MattressBentoGrid() {
                       <h3 className="mt-1 font-heading text-xl font-bold text-white sm:text-2xl">
                         {category.title}
                       </h3>
-                      {large && (
-                        <p className="mt-2 max-w-sm font-body text-sm text-white/80">
-                          {category.teaser}
-                        </p>
-                      )}
+                      <p className={`mt-2 font-body text-sm text-white/80 ${large ? "max-w-sm" : "max-w-[16rem]"}`}>
+                        {category.teaser}
+                      </p>
                     </div>
                     <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-white/15 text-white backdrop-blur-xl transition-transform duration-500 ease-[cubic-bezier(0.32,0.72,0,1)] group-hover:translate-x-1 group-hover:-translate-y-1">
                       ↗

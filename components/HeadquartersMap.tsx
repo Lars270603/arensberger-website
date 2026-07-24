@@ -8,7 +8,7 @@ export default function HeadquartersMap() {
         <img
           src="/images/karte-deutschland.svg"
           alt="Karte von Deutschland mit dem Arensberger Firmensitz in Nerdlen, Landkreis Vulkaneifel, markiert"
-          className="absolute inset-0 h-full w-full object-contain"
+          className="absolute inset-0 h-full w-full object-cover"
         />
       </div>
     </BezelFrame>

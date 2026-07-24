@@ -11,7 +11,7 @@
 ]>
 <svg version="1.1" id="Germany" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1073.38px"
-	 height="1271.954px" viewBox="0 0 1073.38 1271.954" enable-background="new 0 0 1073.38 1271.954" xml:space="preserve">
+	 height="603.78px" viewBox="0 511.9 1073.38 603.78" enable-background="new 511.9 511.9 1073.38 603.78" xml:space="preserve">
 <metadata>
 	<sfw  xmlns="&ns_sfw;">
 		<slices></slices>
@@ -3823,5 +3823,5 @@
   <text x="184" y="719" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="2" font-weight="600" fill="#454D9F">VULKANEIFEL</text>
   <text x="184" y="740" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#1C1C1E">Nerdlen &#8212; Firmensitz seit 2004</text>
 </g>
-<text x="16" y="1252" font-family="Georgia, serif" font-style="italic" font-size="14" fill="#C4BBA8">Kartenbasis: NordNordWest / TUBS, CC BY-SA 3.0</text>
+<text x="16" y="1103" font-family="Georgia, serif" font-style="italic" font-size="14" fill="#C4BBA8">Kartenbasis: NordNordWest / TUBS, CC BY-SA 3.0</text>
 </svg>

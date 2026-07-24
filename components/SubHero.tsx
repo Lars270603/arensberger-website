@@ -1,5 +1,6 @@
 import Image from "next/image";
 import PlaceholderImage from "./PlaceholderImage";
+import ParallaxLayer from "./ParallaxLayer";
 import Reveal from "./Reveal";
 
 type SubHeroProps = {
@@ -14,7 +15,13 @@ export default function SubHero({ eyebrow, title, subtitle, imageLabel, image }:
   return (
     <section className="relative flex h-[70vh] min-h-[480px] w-full items-end overflow-hidden">
       {image ? (
-        <Image src={image} alt={imageLabel} fill priority className="object-cover" />
+        <ParallaxLayer
+          className="absolute inset-x-0"
+          style={{ top: -80, height: "calc(100% + 160px)" }}
+          strength={0.15}
+        >
+          <Image src={image} alt={imageLabel} fill priority className="h-full object-cover" />
+        </ParallaxLayer>
       ) : (
         <PlaceholderImage label={imageLabel} fill className="absolute inset-0" />
       )}

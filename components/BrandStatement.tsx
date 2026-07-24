@@ -1,8 +1,15 @@
 import SinceBadge from "./SinceBadge";
 import Reveal from "./Reveal";
+import CountUp from "./CountUp";
 
 const facts = [
-  { value: "1.000.000+", label: "Menschen schlafen bereits auf einer Arensberger", rotate: "sm:-rotate-2" },
+  {
+    value: "1.000.000+",
+    countTo: 1_000_000,
+    suffix: "+",
+    label: "Menschen schlafen bereits auf einer Arensberger",
+    rotate: "sm:-rotate-2",
+  },
   { value: "Öko-Tex®", label: "Zertifizierte Qualität in jeder einzelnen Matratze", rotate: "" },
   { value: "0", label: "Zwischen unserer Entwicklung und deinem Schlafzimmer", rotate: "sm:rotate-2" },
 ];
@@ -37,7 +44,9 @@ export default function BrandStatement() {
             <Reveal key={fact.value} delay={index * 120}>
               <div className={`rounded-[2rem] bg-white/10 p-2 ring-1 ring-white/15 ${fact.rotate} transition-transform duration-500 hover:rotate-0`}>
                 <div className="rounded-[calc(2rem-0.5rem)] bg-accent-dark/40 px-8 py-10 shadow-[inset_0_1px_1px_rgba(255,255,255,0.15)]">
-                  <p className="font-heading text-4xl font-bold sm:text-5xl">{fact.value}</p>
+                  <p className="font-heading text-4xl font-bold tabular-nums sm:text-5xl">
+                    {fact.countTo ? <CountUp to={fact.countTo} suffix={fact.suffix} /> : fact.value}
+                  </p>
                   <p className="mt-4 font-body text-white/75">{fact.label}</p>
                 </div>
               </div>

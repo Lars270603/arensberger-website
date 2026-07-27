@@ -74,7 +74,7 @@ export default function UeberUnsPage() {
 
         <p className="mt-4 font-body text-lg leading-relaxed text-secondary">
           Seitdem entwickeln wir fortlaufend weiter und schlafen immer besser — genau wie
-          unsere mehr als 1.000.000 ausgeschlafenen und glücklichen Kunden.
+          unsere mehr als 3 Millionen ausgeschlafenen und glücklichen Kunden.
         </p>
       </article>
 

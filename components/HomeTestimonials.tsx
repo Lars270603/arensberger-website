@@ -20,7 +20,7 @@ export default function HomeTestimonials() {
         <div className="max-w-2xl">
           <Reveal>
             <p className="inline-flex rounded-full bg-accent/10 px-3 py-1 font-body text-[10px] uppercase tracking-[0.25em] text-accent">
-              Über 1.000.000 mal bestätigt
+              Über 3 Millionen mal bestätigt
             </p>
           </Reveal>
           <Reveal delay={100}>

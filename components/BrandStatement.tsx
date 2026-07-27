@@ -15,9 +15,9 @@ if (typeof window !== "undefined") {
 
 const facts = [
   {
-    value: "1.000.000+",
-    countTo: 1_000_000,
-    suffix: "+",
+    value: "3 Millionen",
+    countTo: 3,
+    suffix: " Millionen",
     label: "Menschen schlafen bereits auf einer Arensberger",
     restRotate: -2,
   },

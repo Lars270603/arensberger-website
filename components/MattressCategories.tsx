@@ -3,7 +3,7 @@ import Reveal from "./Reveal";
 
 export default function MattressCategories() {
   return (
-    <section className="mx-auto max-w-7xl px-4 py-32 sm:px-6 lg:px-10 lg:py-40">
+    <section id="matratzen" className="mx-auto max-w-7xl scroll-mt-24 px-4 py-32 sm:px-6 lg:px-10 lg:py-40">
       <div className="max-w-2xl">
         <Reveal>
           <p className="inline-flex rounded-full bg-accent/10 px-3 py-1 font-body text-[10px] uppercase tracking-[0.25em] text-accent">

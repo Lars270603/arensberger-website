@@ -31,7 +31,7 @@ export default function UeberUnsPage() {
       <SubHero
         eyebrow="Über uns"
         title="Wir denken den ganzen Tag ans Schlafen."
-        subtitle="Da bist du ja! Wir haben dich schon erwartet und möchten uns gerne vorstellen: Waldemar Derksen & Team."
+        subtitle="Da bist du ja! Wir haben dich schon erwartet und möchten uns gerne vorstellen."
         imageLabel="Arensberger Firmensitz in Nerdlen"
         image="/images/firmensitz-nerdlen.jpg"
       />

@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef } from "react";
+import Image from "next/image";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -86,20 +87,31 @@ export default function BrandStatement() {
 
   return (
     <section className="bg-accent text-white">
-      <div className="mx-auto max-w-7xl px-4 py-32 sm:px-6 lg:px-10 lg:py-40">
-        <div className="flex flex-col gap-16 lg:flex-row lg:items-start lg:gap-24">
-          <Reveal>
-            <SinceBadge variant="light" className="lg:mt-2" />
+      <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-10 lg:py-12">
+        <div className="flex flex-col items-center gap-4 text-center lg:flex-row lg:items-end lg:gap-16 lg:text-left">
+          <Reveal className="shrink-0">
+            <div className="relative h-32 w-32 sm:h-40 sm:w-40 lg:h-56 lg:w-56">
+              <Image
+                src="/images/geschaeftsfuehrer.png"
+                alt="Geschäftsführer von Arensberger"
+                fill
+                sizes="(min-width: 1024px) 224px, (min-width: 640px) 160px, 128px"
+                className="object-contain object-bottom"
+              />
+            </div>
           </Reveal>
 
-          <div className="max-w-2xl">
+          <div className="max-w-xl">
             <Reveal>
-              <p className="inline-flex rounded-full bg-white/10 px-3 py-1 font-body text-[10px] uppercase tracking-[0.25em] text-white/70">
+              <SinceBadge variant="light" className="mx-auto lg:mx-0" />
+            </Reveal>
+            <Reveal delay={100}>
+              <p className="mt-4 inline-flex rounded-full bg-white/10 px-3 py-1 font-body text-[10px] uppercase tracking-[0.25em] text-white/70">
                 Der Grund, warum es uns gibt
               </p>
             </Reveal>
-            <Reveal delay={120}>
-              <p className="mt-6 text-balance font-serif italic text-3xl leading-snug sm:text-5xl">
+            <Reveal delay={200}>
+              <p className="mt-4 text-balance font-serif italic text-3xl leading-snug sm:text-4xl">
                 Wir wollten keine neue Matratzenmarke gründen. Wir wollten nur
                 endlich eine finden, die hält, was sie verspricht. Also haben
                 wir sie selbst entwickelt.
@@ -108,7 +120,7 @@ export default function BrandStatement() {
           </div>
         </div>
 
-        <div ref={factsRef} className="mt-20 grid grid-cols-1 gap-8 sm:grid-cols-3">
+        <div ref={factsRef} className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-3">
           {facts.map((fact, index) => (
             <div
               key={fact.value}
@@ -116,11 +128,11 @@ export default function BrandStatement() {
               onMouseEnter={handleEnter}
               onMouseLeave={(event) => handleLeave(event, index)}
             >
-              <div className="rounded-[calc(2rem-0.5rem)] bg-accent-dark/40 px-8 py-10 shadow-[inset_0_1px_1px_rgba(255,255,255,0.15)]">
+              <div className="rounded-[calc(2rem-0.5rem)] bg-accent-dark/40 px-6 py-6 shadow-[inset_0_1px_1px_rgba(255,255,255,0.15)]">
                 <p className="font-heading text-4xl font-bold tabular-nums sm:text-5xl">
                   {fact.countTo ? <CountUp to={fact.countTo} suffix={fact.suffix} /> : fact.value}
                 </p>
-                <p className="mt-4 font-body text-white/75">{fact.label}</p>
+                <p className="mt-3 font-body text-white/75">{fact.label}</p>
               </div>
             </div>
           ))}

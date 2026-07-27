@@ -11,8 +11,8 @@ export default function Home() {
     <>
       <Hero />
       <BrandStatement />
-      <VulkaneifelStatement />
       <MattressCategories />
+      <VulkaneifelStatement />
       <HomeTestimonials />
       <NanocellTeaser />
       <AboutQuote />

@@ -28,7 +28,7 @@ const facts = [
   },
   {
     value: "0",
-    label: "Zwischen unserer Entwicklung und deinem Schlafzimmer",
+    label: "Zwischenhändler zwischen uns und deiner Matratze",
     restRotate: 2,
   },
 ];

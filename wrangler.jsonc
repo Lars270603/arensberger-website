@@ -9,7 +9,8 @@
     "directory": ".open-next/assets"
   },
   "routes": [
-    { "pattern": "arensberger.de", "custom_domain": true }
+    { "pattern": "arensberger.de", "custom_domain": true },
+    { "pattern": "www.arensberger.de", "custom_domain": true }
   ],
   "observability": {
     "enabled": true
